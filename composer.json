@@ -1,6 +1,6 @@
 {
-    "name": "cybernic/yii2-vardumper",
-    "description": "Yii2 extension that adds a new debug panel tab with var daumper variables",
+    "name": "cybernic/yii2-dumper",
+    "description": "Yii2 extension that adds a new debug panel tab with dumper variables",
     "type": "yii2-extension",
     "license": "BSD-3-Clause",
     "authors": [
@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "cybernic\\vardumper\\": ""
+            "cybernic\\": ""
         }
     }
 }
