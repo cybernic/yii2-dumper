@@ -1,6 +1,6 @@
 <?php
 
-namespace \cybernic\Dumper;
+namespace cybernic\Dumper;
 
 class Dumper
 {
