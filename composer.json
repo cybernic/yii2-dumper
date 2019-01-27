@@ -1,0 +1,22 @@
+{
+    "name": "cybernic/yii2-vardumper",
+    "description": "Yii2 extension that adds a new debug panel tab with var daumper variables",
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Nicolai Vornicoglo",
+            "email": "info@nicolaiv.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "yiisoft/yii2": "*",
+        "yiisoft/yii2-debug": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "cybernic\\vardumper\\": ""
+        }
+    }
+}
