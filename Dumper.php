@@ -5,7 +5,7 @@ namespace cybernic\Dumper;
 use yii\base\Component;
 
 /**
- * Class VarDump
+ * Class Dumper
  *
  * @property $dumpData array
 
@@ -34,7 +34,7 @@ class Dumper extends Component
         $this->_backtrace = debug_backtrace(DEBUG_BACKTRACE_PROVIDE_OBJECT, 3);
 
         $event = new DumperEvent();
-        $event->varDump = $this;
+        $event->dumper = $this;
         $this->trigger(self::EVENT_DUMPER, $event);
     }
 
